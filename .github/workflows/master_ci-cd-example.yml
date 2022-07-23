@@ -51,4 +51,4 @@ jobs:
         with:
           app-name: 'ci-cd-example'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F42D31830E642AFAA58FFA3AE38D85F }}
-          package: ./dist/ci-cd-example
+          package: ./dist/angular-ci-cd-example
